@@ -10,8 +10,11 @@ export const HeaderWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     background-color: ${appColors.black};
-`;
 
+    position: fixed;
+    top: 0;
+    z-index: 1;
+`;
 
 export const HomeDiv = styled.div`
     height: 100%;
@@ -20,8 +23,6 @@ export const HomeDiv = styled.div`
     margin-left: 5%;
     width: 9em;
 `;
-
-
 
 export const HomeLink = styled(NavLink)`
     padding: 10px;

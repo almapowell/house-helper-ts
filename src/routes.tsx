@@ -12,9 +12,9 @@ import Footer from './components/Footer';
 // import Assignments from './components/Assignments/connected';
 
 const Layout = styled.div`
-  padding: 25px;
+  padding: 72px 25px 25px 25px;
   position: relative;
-  min-height: 62vh;
+  min-height: 63vh;
 `;
 
 const Wrap = styled.div`
