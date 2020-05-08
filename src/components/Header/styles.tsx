@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import {appColors} from '../../../styles/variables';
+import {appColors} from '../../styles/variables';
 import {NavLink} from 'react-router-dom';
 // import {appColors} from '@app/styles/variables';
 

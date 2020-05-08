@@ -7,24 +7,26 @@ import Home from './components/Home';
 import AddProject from './components/AddProject';
 import SearchListings from './components/SearchListings';
 import Login from './components/Login';
+import Header from './components/Header';
 import Footer from './components/Footer';
 // import Assignments from './components/Assignments/connected';
 
 const Layout = styled.div`
   padding: 25px;
-  display: flex;
-  flex-direction: column;
-  min-height: 60vh;
+  position: relative;
+  min-height: 62vh;
 `;
 
-const Wrap = styled.div`flex: 1`;
+const Wrap = styled.div`
+padding-bottom: 2.5rem; 
+`;
 
 const Routes: React.FunctionComponent = () => {
 
     return (
     // <ConnectedRouter history={browserHistory}>
     <Router>
-        <App />
+        <Header />
         <Layout>
           <Wrap>
           <Switch>
