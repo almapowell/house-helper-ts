@@ -17,6 +17,7 @@ export const Tags = styled.p``;
 export const SocialMediaTag = styled.p`
     width: 100%;
     padding: 20px;
+    margin: 10px;
     justify-content: center;
     display: flex;
     border-top: 1px solid white;
