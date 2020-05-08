@@ -4,8 +4,8 @@ import {appColors} from '../../styles/variables';
 export const FooterContainer = styled.div`
     color: white;
     background-color: ${appColors.black};
-
     height: 200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,7 @@ export const Tags = styled.p``;
 
 export const SocialMediaTag = styled.p`
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     margin: 10px;
     justify-content: center;
     display: flex;
